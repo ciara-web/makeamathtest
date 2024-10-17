@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Math Test</title>
+</head>
+<body>
+
+    <h1>Online Math Test</h1>
+
+    <!-- Name Input -->
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" placeholder="Your name" required><br><br>
+
+    <!-- Multiple Choice Questions -->
+    <h2>Multiple Choice Questions</h2>
+
+    <form>
+
+        <p>1. What is 7 + 5?</p>
+        <input type="radio" name="q1" value="A"> A) 10<br>
+        <input type="radio" name="q1" value="B"> B) 11<br>
+        <input type="radio" name="q1" value="C"> C) 12<br>
+        <input type="radio" name="q1" value="D"> D) 13<br><br>
+
+        <p>2. What is 12 ÷ 4?</p>
+        <input type="radio" name="q2" value="A"> A) 2<br>
+        <input type="radio" name="q2" value="B"> B) 3<br>
+        <input type="radio" name="q2" value="C"> C) 4<br>
+        <input type="radio" name="q2" value="D"> D) 5<br><br>
+
+        <p>3. What is 9 × 6?</p>
+        <input type="radio" name="q3" value="A"> A) 54<br>
+        <input type="radio" name="q3" value="B"> B) 60<br>
+        <input type="radio" name="q3" value="C"> C) 63<br>
+        <input type="radio" name="q3" value="D"> D) 72<br><br>
+
+        <!-- Word Problem -->
+        <h2>Word Problem</h2>
+        <p>If you have 15 apples and you give 3 to a friend, how many apples do you have left?</p>
+        <textarea rows="4" cols="50" placeholder="Type your answer here..."></textarea><br><br>
+
+        <!-- Math Symbols -->
+        <h3>Math Symbols Used:</h3>
+        <p>Add: &plus;</p>
+        <p>Subtract: &minus;</p>
+        <p>Multiply: &times;</p>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
+<!-- End of Math Test -->
